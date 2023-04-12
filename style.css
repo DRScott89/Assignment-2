@@ -1,0 +1,114 @@
+* {
+    /* border: 2px solid red; */
+    font-family: 'Arial';
+}
+body {
+    width: 100%;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ 
+form {
+    border: 2px solid lightgray;
+    width: 23%;
+    text-align: left;
+    display: inline-block;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-inline: 20px;
+    
+}
+.amazon-container {
+    width: 100%;
+    padding-top: 200px;
+}
+
+
+.continue {
+    background-color: gold;
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+footer {
+    width: 27%;
+    text-align: center;
+    display: inline-block;
+}
+.create-account {
+    width: 100%;
+    background-color: lightgrey;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.need-help {
+    padding: 10px;
+    font-size: 14px;
+    color: blue;
+    margin-top: 5px;
+    padding-bottom: 25px;
+}
+h2 {
+    font-weight: 1;
+    font-size: 15px;
+    color: gray;
+}
+.new-lines:before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 122px;
+    position: absolute;
+    top: 57%;
+    left: 1;
+    background: lightgray;
+    margin-left: 15px;
+}
+.new-lines:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 122px;
+    position: absolute;
+    top: 57%;
+    right: 0;
+    background: lightgray;
+    margin-right: 37%;
+}
+
+label {
+    font-size: 12px;
+}
+input {
+    font-size: 15px;
+    padding: 4px;
+    border-color: black;
+    border-width: 1px;
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.forgot {
+    font-size: 13px;
+    color: blue;  
+    padding-left: 140px;
+}
+.password-label{
+    display: flex;
+    
+}
+.pass {
+    padding-left: 50px;
+    font-size: 12px;
+}
